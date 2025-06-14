@@ -1,26 +1,38 @@
-# Errgo Code Assessment
-This repo contains two directories:
-1. Backend
-2. Frontend
+💻 Erggo Full Stack Interview Task – Submission by Siya Chugh
+This is my submission for the Erggo full-stack engineering interview task. I’ve built a complete full-stack web application that allows users to add and view a list of projects. The project features a responsive React + TypeScript frontend and a backend powered by Express and TypeScript. I’ve also included a short demo video to showcase the working app.
 
-There are multiple `TODO`s scattered across both directories. The goal is to complete the TODOs to implement a full round trip scenario to populate and display the data on the front end. It's recommended to start with the `Frontend` directory to get a better understanding of the project and to help determine the necessary code to be added in the `Backend` directory.
+🔧 Tech Stack
+Frontend:
+React
 
-Work will be graded taking into account the following aspects:
-- Clean code
-- Conciseness of solution
-- TSDoc
+TypeScript
 
-Please read the respective `README.md` files found in each directory for more details.
+Vite
 
-# Highly Visibile Bonus Task (Optional)
-Implement a chat system utilizing web sockets on both frontend and backend. This should just be a simple system where multiple users can chat to one another on one single session.
-- For the frontend, create a new page and route to the page `/chat`
-  - Bare minimum design, you dont need to show user names, just a new line for each message
-  - Simple text field and send button
-- No need to implement multiple rooms/sessions
-- Utilize the web socket node package for backend and the client web socket for front end
-- Messages should be displaying live
-- Store the state of the chat on the backend (will be destroyed upon server restart/shut down)
+Tailwind CSS
 
-# Submission
-For submission, please upload your solution as a private repository on your GitHub profile and share it with `errgo.project@gmail.com`
+Backend:
+Express (TypeScript)
+
+UUID
+
+CORS
+
+🧠 What I Implemented
+Sidebar toggle functionality
+
+Project listing fetched from the backend
+
+Project creation through a POST API
+
+Responsive UI and clean structure
+
+Type-safe interfaces throughout
+
+To run the project locally, start by navigating into the Backend folder and running npm install to install the dependencies, followed by npm run dev to start the Express server on http://localhost:3000. In a separate terminal, navigate into the Frontend folder and run npm install as well, then start the development server using npm run dev. This will launch the React application on http://localhost:5173, which communicates with the backend to fetch and display project data.
+
+
+🙋‍♀️ About Me
+Hi, I’m Siya Chugh — a passionate full-stack developer. I love building clean, interactive user experiences and writing robust backend logic. This task helped me showcase both frontend and backend skills together in a real-world structure.
+
+Feel free to explore the project and reach out if needed!
